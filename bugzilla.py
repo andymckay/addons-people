@@ -149,7 +149,7 @@ def reviews_involved_per_week(person, start=None, end=None):
     )
 
 
-def bugs_closed_by_component_per_week(component, start=None, end=None):
+def bugs_closed_by_component_per_week(product, component, start=None, end=None):
     return reversed(
         get_query_per_week(component, bugs_closed_component, parse=parse, start=start, end=end)
     )

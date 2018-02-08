@@ -35,7 +35,7 @@
           </tr>
         </thead>
         <tbody>
-          {% for full, shorter in bugzilla_components %}
+          {% for product, full, shorter in bugzilla_components %}
           <tr>
             <td><a href="component-{{ shorter }}.html">{{ full }}</a></td>
           </tr>

@@ -131,14 +131,14 @@
     },
     "bugzilla": {
         "components": [
-            ["WebExtensions: Android", "webext-android"],
-            ["WebExtensions: Compatibility", "webext-compat"],
-            ["WebExtensions: Developer Tools", "webext-devtools"],
-            ["WebExtensions: Experiments", "webext-experiments"],
-            ["WebExtensions: Frontend", "webext-frontend"],
-            ["WebExtensions: General", "webext-general"],
-            ["WebExtensions: Request Handling", "webext-request"],
-            ["WebExtensions: Untriaged", "webext-untriaged"]
+            ["Toolkit", "WebExtensions: Android", "webext-android"],
+            ["Toolkit", "WebExtensions: Compatibility", "webext-compat"],
+            ["Toolkit", "WebExtensions: Developer Tools", "webext-devtools"],
+            ["Toolkit", "WebExtensions: Experiments", "webext-experiments"],
+            ["Toolkit", "WebExtensions: Frontend", "webext-frontend"],
+            ["Toolkit", "WebExtensions: General", "webext-general"],
+            ["Toolkit", "WebExtensions: Request Handling", "webext-request"],
+            ["Toolkit", "WebExtensions: Untriaged", "webext-untriaged"]
         ]
     }
 }

@@ -12,12 +12,13 @@ BUG_CACHE = {}
 
 def get_overall_blockers(data):
     start = time.time()
+    components = [v[1] for v in data['bugzilla']['components']]
     params = {
         'f1': 'blocked',
         'o1': 'isnotempty',
         'include_fields': 'blocks,id,summary',
         'status': ['UNCONFIRMED', 'NEW', 'ASSIGNED', 'REOPENED'],
-        'component': [v[0] for v in data['bugzilla']['components']]
+        'component': components
     }
     res = requests.get(URL, params=params)
     res.raise_for_status()
@@ -61,6 +62,9 @@ def recurse_blockers(bug):
 
 
 def collect(data):
+    if not data['bugzilla']['components']:
+        return []
+
     blocks = {}
     for bug in get_overall_blockers(data):
         if len(bug['blocks']) > 2:

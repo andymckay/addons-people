@@ -1,0 +1,147 @@
+{
+    "title": "Applications services team",
+    "start_date": "2018-01-01",
+    "people": {
+        "andym": {
+            "timezone": "America/Vancouver",
+            "image": "https://phonebook.mozilla.org//pic.php?mail=amckay@mozilla.com&type=thumb",
+            "irc": "andym",
+            "slack": "andym",
+            "full": "Andy McKay",
+            "bugzilla_email": "amckay@mozilla.com",
+            "bugzilla_nick": ":andym",
+            "github": "andymckay"
+        },
+        "eoger": {
+            "timezone": "America/Toronto",
+            "image": "https://phonebook.mozilla.org/pic.php?mail=eoger@mozilla.com&type=thumb",
+            "irc": "eoger",
+            "slack": "eoger",
+            "full": "Edouard Oger",
+            "bugzilla_email": "eoger@fastmail.com",
+            "bugzilla_nick": ":eoger",
+            "github": "eoger"
+        },
+        "pb": {
+            "timezone": "Europe/London",
+            "image": "https://phonebook.mozilla.org/pic.php?mail=pbooth@mozilla.com&type=thumb",
+            "irc": "pb",
+            "slack": "",
+            "full": "Phil Booth",
+            "bugzilla_email": "pbooth@mozilla.com",
+            "bugzilla_nick": ":pb",
+            "github": "philbooth"
+        },
+        "vbudhram": {
+            "timezone": "America/Miami",
+            "image": "https://phonebook.mozilla.org/pic.php?mail=vbudhram@mozilla.com&type=thumb",
+            "irc": "vbudhram",
+            "slack": "",
+            "full": "Vijay Budhram",
+            "bugzilla_email": "vbudhram@mozilla.com",
+            "bugzilla_nick": "vbudhram",
+            "github": "vbudhram"
+        },
+        "tscs": {
+            "timezone": "America/New York",
+            "image": "https://phonebook.mozilla.org/pic.php?mail=tchiovoloni@mozilla.com&type=thumb",
+            "irc": "tcsc",
+            "slack": "",
+            "full": "Thom Chiovoloni",
+            "bugzilla_email": "tchiovoloni@mozilla.com",
+            "bugzilla_nick": ":tcsc",
+            "github": "thomcc"
+        },
+        "kit": {
+            "timezone": "America/Los Angeles",
+            "image": "https://phonebook.mozilla.org/pic.php?mail=kcambridge@mozilla.com&type=thumb",
+            "irc": "kitcambridge",
+            "slack": "",
+            "full": "Kit Cambridge",
+            "bugzilla_email": "kit@mozilla.com",
+            "bugzilla_nick": ":kitcambridge",
+            "github": "kitcambridge"
+        },
+        "vlad": {
+            "timezone": "America/Toronto",
+            "image": "https://phonebook.mozilla.org/pic.php?mail=vfilippov@mozilla.com&type=thumb",
+            "irc": "vladikoff",
+            "slack": "",
+            "full": "Vladislav Filippov",
+            "bugzilla_email": "vlad@vladikoff.com",
+            "bugzilla_nick": ":vladikoff",
+            "github": "vladikoff"
+        },
+        "shane": {
+            "timezone": "Europe/London",
+            "image": "https://phonebook.mozilla.org/pic.php?mail=stomlinson@mozilla.com&type=thumb",
+            "irc": "stomlinson",
+            "slack": "",
+            "full": "Shane Tomlinson",
+            "bugzilla_email": "stomlinson@mozilla.com",
+            "bugzilla_nick": ":stomlinson",
+            "github": "stomlinson"
+        },
+        "rfkelly": {
+            "timezone": "Europe/London",
+            "image": "https://phonebook.mozilla.org/pic.php?mail=rfkelly@mozilla.com&type=thumb",
+            "irc": "rfkelly",
+            "slack": "",
+            "full": "Ryan Kelly",
+            "bugzilla_email": "rfkelly@mozilla.com",
+            "bugzilla_nick": ":rfkelly",
+            "github": "rfk"
+        },
+        "mahmmond": {
+            "timezone": "Europe/London",
+            "image": "https://phonebook.mozilla.org/pic.php?mail=markh@mozilla.com&type=thumb",
+            "irc": "markh",
+            "slack": "",
+            "full": "Mark Hammond",
+            "bugzilla_email": "markh@mozilla.com",
+            "bugzilla_nick": ":markh",
+            "github": "mhammond"
+        },
+        "ben": {
+            "timezone": "Europe/London",
+            "image": "https://phonebook.mozilla.org/pic.php?mail=bbangert@mozilla.com&type=thumb",
+            "irc": "benbangert",
+            "slack": "",
+            "full": "Ben Bangert",
+            "bugzilla_email": "bbangert@mozilla.com",
+            "bugzilla_nick": ":bbangert",
+            "github": "bbangert"
+        },
+        "pjenvey": {
+            "timezone": "Europe/London",
+            "image": "https://phonebook.mozilla.org/pic.php?mail=pjenvey@mozilla.com&type=thumb",
+            "irc": "pjenvey",
+            "slack": "",
+            "full": "Philip Jenvey",
+            "bugzilla_email": "pjenvey@mozilla.com",
+            "bugzilla_nick": ":pjenvey",
+            "github": "pjenvey"
+        },
+        "jr": {
+            "timezone": "Europe/London",
+            "image": "https://phonebook.mozilla.org/pic.php?mail=jrconlin@mozilla.com&type=thumb",
+            "irc": "jrconlin",
+            "slack": "",
+            "full": "JR Conlin",
+            "bugzilla_email": "jrconlin@mozilla.com",
+            "bugzilla_nick": ":jrconlin",
+            "github": "jrconlin"
+        }
+    },
+    "bugzilla": {
+        "components": [
+            ["Android Background Services", "Firefox Accounts", "fxa-android"],
+            ["Cloud Services", "Firefox Sync: Backend", "sync-backend"],
+            ["Cloud Services", "Firefox Sync: Build", "sync-build"],
+            ["Cloud Services", "Firefox Sync: Cross-client", "sync-cross"],
+            ["Cloud Services", "Firefox Sync: Crypto", "sync-crypto"],
+            ["Cloud Services", "Firefox Sync: Other Clients", "sync-other"],
+            ["Cloud Services", "Firefox Sync: UI", "sync-ui"]
+        ]
+    }
+}
